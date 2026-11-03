@@ -1,0 +1,18 @@
+# System files
+.DS_Store
+.claude/
+
+# Node.js (if accidentally added back)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+*.log
