@@ -41,7 +41,7 @@ If you use VS Code, install the "Live Server" extension and click "Go Live" in t
 git init
 git add .
 git commit -m "World Clock app"
-git remote add origin https://github.com/yourusername/world-clock.git
+git remote add origin https://github.com/yourusername/worldclock.git
 git push -u origin main
 ```
 
@@ -49,7 +49,7 @@ git push -u origin main
    - Go to repo Settings → Pages
    - Select "main" branch
    - Click "Save"
-   - Your app will be at: `https://yourusername.github.io/world-clock/`
+   - Your app will be at: `https://yourusername.github.io/worldclock/`
 
 ### Netlify
 
