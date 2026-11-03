@@ -1,9 +1,9 @@
-const CACHE_NAME = 'world-clock-v1';
+const CACHE_NAME = 'world-clock-v2';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/monofonto rg.otf',
-  '/manifest.json'
+  './',
+  './index.html',
+  './monofonto rg.otf',
+  './manifest.json'
 ];
 
 // Install service worker and cache files
