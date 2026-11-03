@@ -221,14 +221,18 @@
             cursor: pointer;
             font-size: 20px;
             line-height: 28px;
-            transition: all 0.2s ease;
+            transition: opacity 0.2s ease, transform 0.2s ease;
             font-family: 'Monofonto', 'Courier New', monospace;
-            opacity: 1;
+            opacity: 0;
             z-index: 10;
             font-weight: bold;
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        .clock-widget:hover .close-btn {
+            opacity: 1;
         }
 
         .close-btn:hover {
